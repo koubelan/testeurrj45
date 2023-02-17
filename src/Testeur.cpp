@@ -60,7 +60,7 @@ void Testeur::TypeCable()
 }
 
 // Définition de la méthode AffichagePotentio qui affiche La valeur du potentiomètre au moniteur série
-void Testeur::LectureContinuite()
+int Testeur::LectureContinuite()
 {
   digitalWrite(Oob, HIGH);
   infIob = digitalRead(Iob);
@@ -91,6 +91,7 @@ void Testeur::LectureContinuite()
     {
 
         Serial.println("Premier test - Continuté du signal : On");
+
         delay(1000);
     }
 }

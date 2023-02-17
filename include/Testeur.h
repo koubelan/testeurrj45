@@ -75,7 +75,7 @@ public:   // Attribut ou méthode accèssible à l'extérieur de la class
 
     void TypeCable();     // Déclaration de la méthode TypeCable
 
-    void LectureContinuite(); // Déclaration de la méthode LectureContinuite
+    int LectureContinuite(); // Déclaration de la méthode LectureContinuite
     
 };
 

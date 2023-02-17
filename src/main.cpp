@@ -53,7 +53,13 @@ void loop() {
  // Envoyer le signal sur les broches considéré comme sorti et stocké la valeur lue en entré dans des variables
   
   
-  rj45.LectureContinuite() ;  
+  int continuite = rj45.LectureContinuite() ; 
+   if (continuite==1) {
+      rj45.TypeCable();
+   }
+   else{
+    Serial.println("Impossible de vous dire le type du câble car il est mal serti, veuillez le ressertir svp.");
+   }
       
     
 }
