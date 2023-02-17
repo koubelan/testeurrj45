@@ -40,14 +40,14 @@ private:  // Attribut ou méthode non accèssible à l'extérieur de la class
 #define Im 9
 
 // Déclaration des variables considéré sortir O:Output 
-#define Oob 21
-#define Oo 20
-#define Ovb 19
-#define Ob 18
-#define Obb 17
-#define Ov 16
-#define Omb 15
-#define Om 14
+int Oob = 21;
+int Oo = 20;
+int Ovb = 19;
+int Ob = 18;
+int Obb = 17;
+int Ov = 16;
+int Omb = 15;
+int Om = 14;
 
 // Declaration des variables de reception du signal envoyé
 byte infIob;
@@ -69,7 +69,7 @@ byte infOmb;
 byte infOm;
 
 public:   // Attribut ou méthode accèssible à l'extérieur de la class
-    Testeur();       // Déclaration du contructeur avec paramètre
+    Testeur(int pin1, int pin2, int pin3, int pin4, int pin5, int pin6, int pin7, int pin8);       // Déclaration du contructeur avec paramètre
 
     void Ini();  // Initialisation en mode entrée ou sortie dans le setup
 

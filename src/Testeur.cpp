@@ -9,9 +9,17 @@ Titre        : Projet Testeur de câble à paire torsadé
 #include "../include/Testeur.h" // Insertion du header de la class Testeur
 using namespace std;
 
-Testeur::Testeur()
+Testeur::Testeur(int pin1, int pin2, int pin3, int pin4, int pin5, int pin6, int pin7, int pin8)
 { // Définition du contructeur avec paramètre
-    ;
+  Oob = pin1;
+  Oo  = pin2;
+  Ovb = pin3;
+  Ob  = pin4;
+  Obb = pin5;
+  Ov  = pin6;
+  Omb = pin7;
+  Om =  pin8;
+
 }
 
 void Testeur::Ini(){

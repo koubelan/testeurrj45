@@ -25,8 +25,17 @@ mb : Marron-Blanc
 m  : Marron
 
 */
+
+int fil1;
+int fil2;
+int fil3;
+int fil4;
+int fil5; 
+int fil6; 
+int fil7; 
+int fil8;
 // Déclaration de l'objet RJ45
-Testeur rj45;
+Testeur rj45(fil1,fil2,fil3,fil4,fil5,fil6,fil7,fil8);
 
 void setup() {
   // Initialisation 
@@ -43,7 +52,8 @@ void setup() {
 void loop() {
  // Envoyer le signal sur les broches considéré comme sorti et stocké la valeur lue en entré dans des variables
   
-   ;  
+  
+  rj45.LectureContinuite() ;  
       
     
 }
