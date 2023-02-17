@@ -68,6 +68,8 @@ byte infOv;
 byte infOmb;
 byte infOm;
 
+byte valeurContinuite;
+
 public:   // Attribut ou méthode accèssible à l'extérieur de la class
     Testeur(int pin1, int pin2, int pin3, int pin4, int pin5, int pin6, int pin7, int pin8);       // Déclaration du contructeur avec paramètre
 

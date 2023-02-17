@@ -90,8 +90,7 @@ int Testeur::LectureContinuite()
         infImb == 1 && infIm == 1)
     {
 
-        Serial.println("Premier test - Continuté du signal : On");
-
-        delay(1000);
+        valeurContinuite = 1;
     }
+    return valeurContinuite;
 }
