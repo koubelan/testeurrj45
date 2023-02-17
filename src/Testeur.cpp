@@ -21,6 +21,57 @@ Testeur::Testeur(int pin1, int pin2, int pin3, int pin4, int pin5, int pin6, int
   Om =  pin8;
 
 }
+    int Testeur::getOob(){
+        return Oob; 
+    }
+    int Testeur::getOo(){
+        return Oo; 
+    }
+    int Testeur::getOvb()
+    {
+        return Ovb; 
+    }
+    int Testeur::getOb(){
+        return Ob; 
+    }
+    int Testeur::getObb(){
+        return Obb; 
+    }
+    int Testeur::getOv(){
+        return Ov; 
+    }
+    int Testeur::getOmb(){
+        return Omb; 
+    }
+    int Testeur::getOm(){
+        return Om; 
+    }
+
+    void Testeur::setOob(int broche2){
+        Oob = broche2 ; 
+    }
+    void Testeur::setOo(int broche3){
+         Oo = broche3 ; 
+    }
+    void Testeur::setOvb(int broche4)
+    {
+        Ovb = broche4 ;
+    }
+    void Testeur::setOb(int broche5){
+         Ob = broche5 ;
+    }
+    void Testeur::setObb(int broche6){
+         Obb = broche6 ;
+    }
+    void Testeur::setOv(int broche7){
+         Oob = broche7 ;
+    }
+    void Testeur::setOmb(int broche8){
+         Omb = broche8 ;
+    }
+    void Testeur::setOm(int broche9){
+         Om = broche9 ;
+    }
 
 void Testeur::Ini(){
   pinMode(Iob, INPUT);

@@ -79,5 +79,29 @@ public:   // Attribut ou méthode accèssible à l'extérieur de la class
 
     int LectureContinuite(); // Déclaration de la méthode LectureContinuite
     
+    // Déclaration des getters pour afficher  les broches
+    int getOob();
+    int getOo();
+    int getOvb();
+    int getOb();
+    int getObb();
+    int getOv();
+    int getOmb();
+    int getOm();
+    
+    
+
+
+    // Déclaration des setter pour modifier la valeur  les broches
+    void setOob(int broche2);
+    void setOo(int broche3);
+    void setOvb(int broche4);
+    void setOb(int broche5);
+    void setObb(int broche6);
+    void setOv(int broche7);
+    void setOmb(int broche8);
+    void setOm(int broche9);
+    
+    
 };
 
